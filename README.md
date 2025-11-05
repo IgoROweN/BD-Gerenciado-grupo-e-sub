@@ -61,4 +61,11 @@ CREATE TABLE produto (
 exit;
 ```
 
+▶️ Rodando a Aplicação
+Você pode rodar qualquer uma das duas versões do projeto.
+
+Versão 1: Script em Loop
+Execute o app.js e observe o console. Você verá os logs de [PRIMÁRIO] e [RÉPLICA] a cada segundo.
+
+node app.js
 

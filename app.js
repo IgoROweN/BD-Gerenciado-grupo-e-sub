@@ -54,7 +54,6 @@ async function mainLoop() {
         console.log("====================================================");
         console.log(`[PRIMÁRIO] Produto inserido com sucesso!`);
         
-        // [LINHA CORRIGIDA 1]
         console.log(`> ID: ${novoId}, Descrição: ${produtoNovo.descricao}, Categoria: ${produtoNovo.categoria}, Valor: ${produtoNovo.valor}, Criado Por: ${produtoNovo.criado_por}`);
         
         console.log("----------------------------------------------------");
@@ -70,7 +69,6 @@ async function mainLoop() {
                 
                 // --- 6. PRINT DOS SELECTS (REQUISITO 4) ---
                 if (produtoEncontrado) {
-                    // [LINHA CORRIGIDA 2]
                     console.log(`> [RÉPLICA] SELECT ID ${idParaBuscar}:`, produtoEncontrado);
                 } else {
                     console.log(`> [RÉPLICA] SELECT ID ${idParaBuscar}: (Não encontrado)`);
